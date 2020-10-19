@@ -1,0 +1,58 @@
+
+    <!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="icon" type="image/png" href="viface.png" />
+    <title>Добро пожаловать | Viface</title>
+  </head>
+  <body>
+<link rel="stylesheet" href="main.css">
+      <div class="col">
+        <?php
+       if($_COOKIE['user'] == ''):
+         ?>
+
+<center><h2>Viface</h2></center>
+        <form action="auth.php" method="post">
+   <center><input type="text" class="form-control" name="login" id="login" placeholder="login"></center>
+
+        <center><input type="password" class="form-control" name="pass" id="pass" placeholder="password"></center>
+
+        <center><button class="btn btn-success" type="submit">Вход</button></center>
+        </form>
+      </div>
+            <div class="container mt-4">
+      <form action="check.php" method="post">
+        <center><h3 style="color:grey">Впервые в viface?</h3></center>
+        <center><h4 style="color:grey">Маментальная регистрация</h4></center>
+        <center><input type="text" class="form-control" name="login" id="login" placeholder="Имя"></center>
+      <center><input type="text" class="form-control" name="name" id="name" placeholder="Фамилия"></center>
+        <center><input type="text" class="form-control" name="pass" id="pass" placeholder="пароль"></center>
+        <center><button class="btn btn-success" type="sumbit">регистрацыя</button></center>
+      </form>
+      </div>
+      <body style="background-image: url(jpg);
+      background-repeat: no-repeat; background-position:top center"></body>
+<?php endif;?>
+<p> hi <?=$_COOKIE['user']?>.<a
+  href=""></a>.</p>
+
+
+      <hr>
+<center><h3 style="color:grey">Viface ©2020-2021</h3></center>
+    </hr>
+    <!--
+Лицензия Viface принадлежит
+Egor Myachin с 2020-2021г  а также css,php code
+код выше.
+the License belongs to Egor Myachin from 2020 2021 and also css,php
+code above
+
+
+  -->
+  </body>
+</html>
+
+  </body>
+</html>

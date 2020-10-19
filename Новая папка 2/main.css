@@ -1,0 +1,85 @@
+body {
+  font-family: Tahoma;
+  background: ;
+  margin: 0;
+  background-image: url();
+}
+.group {
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+label {
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+input {
+  margin-top:  14px;
+  height: 40px;
+  width: 350px;
+  padding-left: 15px;
+  border-radius: 19px/20px;
+  border: none;
+  font-size: 18px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+}
+input:focus {
+  border: 2px solid #6coff;
+  transform: translateX(5px);
+  width: 385;
+}
+button {
+  cursor: pointer;;
+  padding: 10px 30px;
+  height: 50px;
+
+  color: #fff;
+  background: black;
+  padding-left: 25px;
+  border-radius: 20px/20px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0,82);
+}
+.name::before{
+  content: "";
+  color: black;
+}
+img {
+  margin-top: 18px;
+  height: 20px;
+  width: 20px;
+  border-radius: 19/20px;
+  padding-left: 15px;
+
+}
+.group {
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+label {
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+textarea {
+  margin-top:  695px;
+  height: 40px;
+  width: 350px;
+  padding-left: 15px;
+  border-radius: 19px/20px;
+  border: none;
+  font-size: 18px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+}
+textarea:focus {
+  border: 2px solid #6coff;
+  transform: translateX(5px);
+  width: 385;
+}
+a {
+  width: 3px;
+  height: 2px;
+    text-decoration: none;
+  }
+
+}
